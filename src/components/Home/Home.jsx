@@ -81,6 +81,22 @@ export default function Home() {
                             </div>
                         </form >
                     </div >
+                    <div className="container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
+                        <div className="container row" style={{ display: 'flex', justifyContent: 'center', width: '80%' }}>
+                            <div className="col-md-4">
+                                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                    <p style={{ fontWeight: 'bold', fontSize: '30px' }}>Submitted Data</p>
+                                </div>
+                                <div style={{ fontSize: 'small' }}>
+                                    <p>The data submitted bu users will be displayed below
+                                    </p>
+                                </div>
+                                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                    <button type="submit" className="btn btn-primary">Save Changes</button>
+                                </div>
+                            </div>
+                        </div >
+                    </div>
                 </section>
             )}
 
@@ -152,27 +168,28 @@ export default function Home() {
                             </div>
                         </form >
                     </div>
+                    <div className="container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
+                        <div className="container row" style={{ display: 'flex', justifyContent: 'center', width: '80%' }}>
+                            <div className="col-md-4">
+                                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                    <p style={{ fontWeight: 'bold', fontSize: '30px' }}>Submitted Data</p>
+                                </div>
+                                <div style={{ fontSize: 'small' }}>
+                                    <p>The data submitted bu users will be displayed below
+                                    </p>
+                                </div>
+                                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                    <button type="submit" className="btn btn-primary">Save Changes</button>
+                                </div>
+                            </div>
+                        </div >
+                    </div>
                 </section >
             )
             }
 
 
-            <div className="container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
-                <div className="container row" style={{ display: 'flex', justifyContent: 'center', width: '80%' }}>
-                    <div className="col-md-4">
-                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                            <p style={{ fontWeight: 'bold', fontSize: '30px' }}>Submitted Data</p>
-                        </div>
-                        <div style={{ fontSize: 'small' }}>
-                            <p>The data submitted bu users will be displayed below
-                            </p>
-                        </div>
-                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                            <button type="submit" className="btn btn-primary">Save Changes</button>
-                        </div>
-                    </div>
-                </div >
-            </div>
+
         </>
     )
 }
