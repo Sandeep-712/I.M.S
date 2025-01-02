@@ -14,11 +14,11 @@ In the project directory, you can run:
 
 
 ### Tool Stack 
-1.React
-2.Bootstrap
-3.CSS
-4.JSX
-5.Components Structure for separation of concern
-6.Git 
-7.Hooks
-8.Functional components
+1. React
+2. Bootstrap
+3. CSS
+4. JSX
+5. Components Structure for separation of concern
+6. Git 
+7. Hooks
+8. Functional components
